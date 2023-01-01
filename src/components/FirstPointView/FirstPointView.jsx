@@ -6,4 +6,5 @@ const FirstPointView = () => {
 
   return <PointerLockControls args={[camera, gl.domElement]} />;
 };
+
 export default FirstPointView;

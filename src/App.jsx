@@ -1,8 +1,8 @@
 import { Canvas } from "@react-three/fiber";
 import { Sky } from "@react-three/drei";
 import { Physics } from "@react-three/cannon";
-import Ground from "./components/Ground/Ground.jsx";
-import FirstPointView from "./components/FirstPointView/FirstPointView.jsx";
+import Ground from "./components/Ground/Ground";
+import FirstPointView from "./components/FirstPointView/FirstPointView";
 
 const App = () => {
   return (
