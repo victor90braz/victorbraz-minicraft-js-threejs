@@ -7,6 +7,8 @@ export const Ground = () => {
     position: [0, -0.5, 0], // x, y, z
   }));
 
+  groundTexture.repeat.set(100, 100);
+
   return (
     <mesh ref={ref}>
       <planeGeometry attach="geometry" args={[100, 100]} />
